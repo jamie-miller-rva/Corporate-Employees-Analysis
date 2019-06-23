@@ -5,7 +5,7 @@ File "Corp_Employee_db.png" is an Entity Relationship Diagram (ERD) and shows en
 
 File "Corporate_Employee_db_queries.sql" is a Visual Studio Code file which lists all the SQL used to create the Corporate Employee Tables and Queries for this analysis
 
-File "
+File "schema_corp_emp.sql" is the schema and queries for coprorate employee db from pgadmin 4
 
 File "Corporate-Employees-Analysis.ipynb" is a Jupyter Notebook file to address the Bonus (Optional)
 
