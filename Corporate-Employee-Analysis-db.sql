@@ -314,7 +314,10 @@ FROM salaries AS s
 INNER JOIN titles as t
 ON s.emp_no = t.emp_no
 ORDER BY t.title, s.salary;
-
+                          
+SELECT DISTINCT title
+FROM salary_by_title;
+                        
 -- How many unique (DISTINCT titles are there?)
 -- Resulting view shows 7 unique titles
 CREATE VIEW distinct_titles AS
@@ -325,7 +328,7 @@ ORDER BY title;
 -- Create view for the resulting query
 -- Find max and min salary for each title
 -- Group By title
-CREATE 
+CREATE VIEW salary_by_unique_title AS
 SELECT title,
 	MAX(salary) max_salary,
 	MIN(salary) min_salary
@@ -333,8 +336,6 @@ FROM salary_by_title
 GROUP BY title
 ORDER BY max_salary DESC;
 
-SELECT DISTINCT title
-FROM salary_by_title;
 
 
 ------------------------------------------------------------------------------------------------------
