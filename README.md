@@ -13,7 +13,7 @@
 
 * schema_corp_emp is a Visual Studio Code file which lists all the SQL used to create the Corporate Employee Tables and Queries for this analysis (this is a cut and paste from pgAdmin)
 
-
+* salary_by_title_bar is a bar chart created in pandas (per the bonus D&G)
 
 
 
