@@ -331,7 +331,8 @@ ORDER BY title;
 CREATE VIEW salary_by_unique_title AS
 SELECT title,
 	MAX(salary) max_salary,
-	MIN(salary) min_salary
+	MIN(salary) min_salary,
+	AVG(salary) avg_salary
 FROM salary_by_title
 GROUP BY title
 ORDER BY max_salary DESC;
