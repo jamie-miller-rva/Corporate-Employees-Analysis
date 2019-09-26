@@ -9,4 +9,4 @@ The Entity Relationship Diagram (ERD) below was created using the dbdiagram tool
 
 Supporting SQL and Python code is available on GitHub at https://github.com/jamie-miller-rva/Corporate-Employees-Analysis 
 
-A technical report (in Juypter Notebook) is available at https://github.com/jamie-miller-rva/Corporate-Employees-Analysis/blob/master/Corporate_Employee_Database_and_Technical_Report.ipynb
+The technical report (in Juypter Notebook) Corporate_Employee_Database_and_Technical_Report.ipynb file in the GitHub repository above.
