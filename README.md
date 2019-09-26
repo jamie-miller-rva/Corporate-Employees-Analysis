@@ -7,3 +7,4 @@ The databased was modeled from the six csv files provided (located in the DATA f
 
 The Entity Relationship Diagram (ERD) below was created using the dbdiagram tool at https://dbdiagram.io/d/5d0fb76237c1673299dafea1
 
+Supporting SQL and Python code is available on GitHub at https://github.com/jamie-miller-rva/Corporate-Employees-Analysis
