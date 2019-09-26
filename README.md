@@ -1,19 +1,11 @@
 # Corporate-Employees-Analysis
-# Table of Contents:
+Corporate Employee Database 1980s-1990s
+The following database Modeling, Engineering, and Analysis was conducted at "the boss's" direction and guidance. It demonstrated the creation of a database using SQL in pgAdmin 4, visualizing the design of that database using an Entity Relationship Diagram (ERD), and connecting that database to Pandas by establishing a SQLAlchemy connection to the Corporate-Employee-Analysis-db.
 
-* README_HW was the Direction and Guidance for this project
+Data Modeling
+The databased was modeled from the six csv files provided (located in the DATA folder). The database uses primary keys for emp_no in the employees table and dept_no in the departments table. Those primary keys are linked to all other tables using emp_no and dept_no as foreign keys.
 
-* DATA is a folder that contains the six csv files provided to construct the database
+The Entity Relationship Diagram (ERD) below was created using the dbdiagram tool at https://dbdiagram.io/d/5d0fb76237c1673299dafea1
 
-* Corporate_Employee_Database_and_Technical_Report contains the SQL script and query output in a Jupyter Notebook
-
-* Corporate-Employee-Analysis-db is the saved pgAdmin 4 file
-
-* Corp_Employee_db is a an Entity Relationship Diagram (ERD) and shows entities (tables) and relationships between tables.
-
-* schema_corp_emp is a Visual Studio Code file which lists all the SQL used to create the Corporate Employee Tables and Queries for this analysis (this is a cut and paste from pgAdmin)
-
-* salary_by_title_bar is a bar chart created in pandas (per the bonus D&G)
-
-
+Corp_Employee_db.png
 
